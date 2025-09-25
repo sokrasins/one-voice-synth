@@ -1658,7 +1658,7 @@
 		)
 		(uuid "5be5d213-39b5-4b6e-804d-10311ad26657")
 	)
-	(text "Attack/Decay Controls"
+	(text "Attack/Release Controls"
 		(exclude_from_sim no)
 		(at 153.162 49.53 0)
 		(effects
@@ -1690,16 +1690,16 @@
 		(uuid "284cb1b5-55a0-426e-b178-0899b4fb6fa9")
 	)
 	(junction
+		(at 172.72 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "518d0154-af6f-4484-9e53-1e2056505ec8")
+	)
+	(junction
 		(at 152.4 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5300febc-0639-4b7b-8409-fa503ce09efc")
-	)
-	(junction
-		(at 173.99 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58c529d9-0cd2-48bb-984f-c52efca27ad8")
 	)
 	(junction
 		(at 175.26 63.5)
@@ -1720,16 +1720,16 @@
 		(uuid "902c9d4a-67d0-4e1f-b836-a1670a14c379")
 	)
 	(junction
+		(at 172.72 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "912142a6-9f93-4af0-bba0-a041a49aec60")
+	)
+	(junction
 		(at 265.43 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "919cc952-6ccc-40d4-ac10-185a4b23c48c")
-	)
-	(junction
-		(at 173.99 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab530f73-79d3-4f24-9387-a407a92b0546")
 	)
 	(junction
 		(at 95.25 156.21)
@@ -1779,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 68.58) (xy 172.72 68.58)
+			(xy 172.72 68.58) (xy 175.26 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1859,16 +1859,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 64.77) (xy 173.99 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "268e68a2-e891-4fc4-9a8d-5e6c3858bb52")
-	)
-	(wire
-		(pts
 			(xy 181.61 63.5) (xy 189.23 63.5)
 		)
 		(stroke
@@ -1886,16 +1876,6 @@
 			(type default)
 		)
 		(uuid "2d56df32-736c-4e7d-a3a1-057dbfa05511")
-	)
-	(wire
-		(pts
-			(xy 168.91 54.61) (xy 173.99 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f9f58d1-987d-456c-9700-0e046efa2133")
 	)
 	(wire
 		(pts
@@ -2069,16 +2049,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 64.77) (xy 173.99 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "696be208-243b-40aa-9036-e05e469f4be9")
-	)
-	(wire
-		(pts
 			(xy 120.65 66.04) (xy 130.81 66.04)
 		)
 		(stroke
@@ -2159,16 +2129,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 54.61) (xy 173.99 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bb07df2-900f-4700-8dfd-2d889e57f06c")
-	)
-	(wire
-		(pts
 			(xy 175.26 58.42) (xy 175.26 63.5)
 		)
 		(stroke
@@ -2219,7 +2179,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 58.42) (xy 175.26 58.42)
+			(xy 172.72 58.42) (xy 175.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2246,6 +2206,16 @@
 			(type default)
 		)
 		(uuid "abd12448-af9d-4e82-9841-97f6ee8504b0")
+	)
+	(wire
+		(pts
+			(xy 172.72 54.61) (xy 172.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae557ea1-eab8-4daf-a911-923460216c3b")
 	)
 	(wire
 		(pts
@@ -2289,13 +2259,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 68.58) (xy 173.99 68.58)
+			(xy 172.72 64.77) (xy 172.72 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8ed056c-574d-4453-9e17-177ac2f97e34")
+		(uuid "b8717551-2041-48c3-9e62-60337ad947ac")
 	)
 	(wire
 		(pts
@@ -2479,6 +2449,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 54.61) (xy 172.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2a6976-e6d8-4072-bac9-8816af70d9c1")
+	)
+	(wire
+		(pts
 			(xy 207.01 53.34) (xy 207.01 60.96)
 		)
 		(stroke
@@ -2489,13 +2469,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 58.42) (xy 173.99 58.42)
+			(xy 168.91 64.77) (xy 172.72 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "feec92b3-a336-4438-a2d8-4bd4bb0118cb")
+		(uuid "fe862139-eadd-4985-b0ce-3fbae05027ea")
 	)
 	(label "GATE_IN"
 		(at 77.47 63.5 0)
@@ -3371,7 +3351,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4b0d887a-0e93-4429-8034-d0de03122229")
 		(property "Reference" "J9"
@@ -5025,7 +5005,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d5c4bef1-29ce-40a4-9d39-8416d7da9db5")
 		(property "Reference" "R33"

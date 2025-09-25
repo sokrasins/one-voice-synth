@@ -1572,6 +1572,16 @@
 		)
 		(uuid "cced25d5-6361-46db-a757-23ad4fb2db40")
 	)
+	(text "RV5 can be replaced with \nvactrols for CV control"
+		(exclude_from_sim no)
+		(at 150.622 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d757d352-71d3-43f3-bc39-70d3c0219544")
+	)
 	(text "2nd-order low-pass filter"
 		(exclude_from_sim no)
 		(at 153.416 22.606 0)
@@ -2613,7 +2623,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0c746c1f-3227-4111-8800-3decf37559eb")
 		(property "Reference" "D7"
@@ -2779,7 +2789,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "15ff19a0-e444-4e03-94bf-b354740e729e")
 		(property "Reference" "D5"
@@ -2945,7 +2955,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "17208b04-6bdf-4963-9247-ce5bdc109ca2")
 		(property "Reference" "D6"
@@ -3031,7 +3041,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1d79534d-33ba-43b8-b9bd-929173759471")
 		(property "Reference" "D9"
@@ -3596,7 +3606,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7089773a-917c-4f13-98d7-3654d007c58b")
 		(property "Reference" "D8"
@@ -4403,7 +4413,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "af889aad-b0ad-459b-b2ea-fe268ebb954a")
 		(property "Reference" "D10"

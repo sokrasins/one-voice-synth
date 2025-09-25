@@ -2863,9 +2863,9 @@
 		)
 		(uuid "53587d7b-42ff-4db3-84f1-d8565e4f30fc")
 	)
-	(text "Oscillator Core\n"
+	(text "Oscillator Core - Sawtooth\n"
 		(exclude_from_sim no)
-		(at 161.798 24.384 0)
+		(at 162.814 24.892 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2886,6 +2886,17 @@
 			)
 		)
 		(uuid "5df912cd-b756-43e5-88ea-22d6efd561d2")
+	)
+	(text "TODO: Test with CV and tracking"
+		(exclude_from_sim no)
+		(at 55.88 133.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 252 1)
+			)
+		)
+		(uuid "67db5efd-7898-401c-9eee-da234a4f7e41")
 	)
 	(text "Frequency Control"
 		(exclude_from_sim no)
