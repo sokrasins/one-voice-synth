@@ -2920,16 +2920,6 @@
 		)
 		(uuid "8994a23b-51d9-4fe7-9988-dd4231555ece")
 	)
-	(text "TODO: Replace with 2k?\nOnly need pot for CV tracking"
-		(exclude_from_sim no)
-		(at 44.958 124.714 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "919af8ca-4dc8-4858-bff1-0cc93b478470")
-	)
 	(text "Voltage-Controlled Oscillator"
 		(exclude_from_sim no)
 		(at 154.178 16.256 0)
