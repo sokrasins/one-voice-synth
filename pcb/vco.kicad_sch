@@ -1743,6 +1743,265 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_3_Bridged12"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged12*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 0.508)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC548"
 			(pin_names
 				(offset 0)
@@ -2153,7 +2412,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+2V5"
+		(symbol "power:+9V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2174,7 +2433,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+2V5"
+			(property "Value" "+9V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2200,7 +2459,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(property "Description" "Power symbol creates a global label with name \"+9V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2218,7 +2477,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+2V5_0_1"
+			(symbol "+9V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2256,7 +2515,7 @@
 					)
 				)
 			)
-			(symbol "+2V5_1_1"
+			(symbol "+9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2278,7 +2537,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-2V5"
+		(symbol "power:-9V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2299,7 +2558,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "-2V5"
+			(property "Value" "-9V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2325,7 +2584,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"-2V5\""
+			(property "Description" "Power symbol creates a global label with name \"-9V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2343,7 +2602,33 @@
 					(hide yes)
 				)
 			)
-			(symbol "-2V5_0_0"
+			(symbol "-9V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2360,20 +2645,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "-2V5_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -2541,6 +2812,16 @@
 		)
 		(uuid "02aedb65-101e-4835-887a-7be7d5aa4680")
 	)
+	(text "1.5k if RV2 \ninstalled"
+		(exclude_from_sim no)
+		(at 68.58 92.964 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c4ba3c5-6b01-432a-b3a5-50c01b2fc208")
+	)
 	(text "Coarse pitch\nadjustment"
 		(exclude_from_sim no)
 		(at 29.464 76.708 90)
@@ -2639,9 +2920,9 @@
 		)
 		(uuid "8994a23b-51d9-4fe7-9988-dd4231555ece")
 	)
-	(text "TODO: Need for demo?"
+	(text "TODO: Replace with 2k?\nOnly need pot for CV tracking"
 		(exclude_from_sim no)
-		(at 71.628 110.236 0)
+		(at 44.958 124.714 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2686,7 +2967,7 @@
 		(uuid "2c5387ba-d911-453c-9b26-204a637d9a69")
 	)
 	(junction
-		(at 72.39 107.95)
+		(at 64.77 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32497f53-98bf-464c-b9d3-dac3f2e78494")
@@ -2849,6 +3130,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 104.14) (xy 80.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197bb596-9fd3-44ee-98d1-606334bc7086")
+	)
+	(wire
+		(pts
 			(xy 85.09 182.88) (xy 87.63 182.88)
 		)
 		(stroke
@@ -2919,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 104.14) (xy 76.2 107.95)
+			(xy 68.58 110.49) (xy 68.58 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2999,7 +3290,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 107.95) (xy 72.39 113.03)
+			(xy 64.77 114.3) (xy 64.77 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3337,6 +3628,16 @@
 		)
 		(uuid "a574340b-1f09-40e9-88b3-1d02c44bafbb")
 	)
+	(wire
+		(pts
+			(xy 77.47 104.14) (xy 80.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a843aefd-4f40-4b1d-a6b7-5db02059d9d2")
+	)
 	(polyline
 		(pts
 			(xy 176.53 142.24) (xy 176.53 166.37)
@@ -3376,6 +3677,16 @@
 			(type default)
 		)
 		(uuid "b4749285-e34a-4238-b5fe-25bbb1450acd")
+	)
+	(wire
+		(pts
+			(xy 64.77 104.14) (xy 64.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5275614-9d31-4526-bc58-cef056cdf17e")
 	)
 	(wire
 		(pts
@@ -3439,6 +3750,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 104.14) (xy 64.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d213a6e1-8a0f-4339-b2e3-4cd32ff87111")
+	)
+	(wire
+		(pts
 			(xy 218.44 45.72) (xy 218.44 38.1)
 		)
 		(stroke
@@ -3499,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 107.95) (xy 72.39 107.95)
+			(xy 68.58 114.3) (xy 64.77 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3559,17 +3880,17 @@
 		(uuid "2a561379-558f-4756-b45c-c7a962936828")
 	)
 	(symbol
-		(lib_id "power:-2V5")
-		(at 240.03 104.14 0)
+		(lib_id "power:-9V")
+		(at 39.37 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "06ac647b-0f0c-4af3-96e2-29138d9dade4")
-		(property "Reference" "#PWR05"
-			(at 240.03 107.95 0)
+		(uuid "0f46fdff-798f-4ad9-88c6-b7c9c50a7bf6")
+		(property "Reference" "#PWR067"
+			(at 39.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,8 +3898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-2V5"
-			(at 240.03 99.06 0)
+		(property "Value" "-9V"
+			(at 39.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 104.14 0)
+			(at 39.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 104.14 0)
+			(at 39.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,8 +3924,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"-2V5\""
-			(at 240.03 104.14 0)
+		(property "Description" "Power symbol creates a global label with name \"-9V\""
+			(at 39.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,12 +3934,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a0d14f3-b42b-442b-9185-e315b7d357a6")
+			(uuid "4a8df62c-c008-4783-ab72-91e018d01049")
 		)
 		(instances
 			(project ""
 				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
-					(reference "#PWR05")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -3687,6 +4008,72 @@
 			(project "one-voice-synth"
 				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 149.86 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a4be72c-7c83-483c-a5d1-f8e0a87cc78d")
+		(property "Reference" "#PWR06"
+			(at 149.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0592ec33-bf30-4626-934e-4aaaa7bbd477")
+		)
+		(instances
+			(project ""
+				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3792,72 +4179,6 @@
 				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
 					(reference "U1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-2V5")
-		(at 105.41 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d253197-4c3e-4b83-89bb-fcc9610855ad")
-		(property "Reference" "#PWR06"
-			(at 105.41 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-2V5"
-			(at 105.41 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-2V5\""
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ad0c410-4270-491d-944b-4a5d25ea560a")
-		)
-		(instances
-			(project "one-voice-synth"
-				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
-					(reference "#PWR06")
-					(unit 1)
 				)
 			)
 		)
@@ -3997,7 +4318,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 113.03 0)
+		(at 64.77 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4006,7 +4327,7 @@
 		(fields_autoplaced yes)
 		(uuid "287f6bd9-0f21-4e6a-9034-8e6d85612ac2")
 		(property "Reference" "#PWR04"
-			(at 72.39 119.38 0)
+			(at 64.77 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,7 +4336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 118.11 0)
+			(at 64.77 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 113.03 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 113.03 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4362,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 113.03 0)
+			(at 64.77 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,72 +4377,6 @@
 			(project "one-voice-synth"
 				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 149.86 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cebd544-eee0-4669-8fea-01ac7720a11c")
-		(property "Reference" "#PWR078"
-			(at 149.86 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 149.86 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c5a1f48-0be4-4697-b870-60b1ad694d2e")
-		)
-		(instances
-			(project "one-voice-synth"
-				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
-					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -4208,6 +4463,72 @@
 			(project ""
 				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-9V")
+		(at 105.41 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38ca4a33-a561-4d90-8da4-f4e6a7a76dc4")
+		(property "Reference" "#PWR068"
+			(at 105.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-9V"
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-9V\""
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa6e944b-57bd-414e-9a29-710d63e83742")
+		)
+		(instances
+			(project ""
+				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4504,6 +4825,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-9V")
+		(at 240.03 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e033087-21fc-4956-a2d5-d106828bf7cd")
+		(property "Reference" "#PWR070"
+			(at 240.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-9V"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-9V\""
+			(at 240.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65f11e58-c60e-40b4-b15d-b34a8b6642d9")
+		)
+		(instances
+			(project ""
+				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 228.6 105.41 90)
 		(unit 3)
@@ -4723,72 +5110,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-2V5")
-		(at 39.37 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d201a72-a8a3-40c2-b65a-3a6c0e37cff7")
-		(property "Reference" "#PWR046"
-			(at 39.37 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-2V5"
-			(at 39.37 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-2V5\""
-			(at 39.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4c24316-2ecf-4c07-8981-24495b6d03c2")
-		)
-		(instances
-			(project "one-voice-synth"
-				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC548")
 		(at 116.84 74.93 0)
 		(unit 1)
@@ -4859,6 +5180,72 @@
 			(project ""
 				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 39.37 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f6b8c61-d9ac-46d0-b025-ec05576acf33")
+		(property "Reference" "#PWR047"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2caff56-3139-4807-a98f-2547d14eaca1")
+		)
+		(instances
+			(project ""
+				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5375,6 +5762,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 80.01 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96a3a80f-55c0-4c70-8645-561c349bc129")
+		(property "Reference" "#PWR02"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7624cfc-9bd1-4352-b22c-dc3683b31705")
+		)
+		(instances
+			(project "one-voice-synth"
+				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 149.86 116.84 0)
 		(unit 1)
@@ -5624,72 +6077,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 217.17 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a293317a-75aa-47b5-95eb-1cb88758cf3c")
-		(property "Reference" "#PWR079"
-			(at 217.17 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 217.17 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 217.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7383663f-6248-49b5-9e74-9975179f6377")
-		)
-		(instances
-			(project "one-voice-synth"
-				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 240.03 114.3 0)
 		(unit 1)
@@ -5895,16 +6282,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
-		(at 72.39 104.14 0)
+		(at 64.77 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b286eac9-b8a4-4953-8f4b-31bdbd579298")
 		(property "Reference" "RV2"
-			(at 69.85 102.8699 0)
+			(at 62.23 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +6300,7 @@
 			)
 		)
 		(property "Value" "1k, 10-turn"
-			(at 69.85 105.4099 0)
+			(at 62.23 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +6309,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 72.39 104.14 0)
+			(at 64.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +6318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 104.14 0)
+			(at 64.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +6327,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 72.39 104.14 0)
+			(at 64.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,17 +6494,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 39.37 68.58 0)
+		(lib_id "power:+9V")
+		(at 105.41 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b8fa0560-0995-42c4-a4dd-c27bb744f3d6")
-		(property "Reference" "#PWR076"
-			(at 39.37 72.39 0)
+		(uuid "ba6716e9-af1a-45fa-bc8e-a096fc0835da")
+		(property "Reference" "#PWR046"
+			(at 105.41 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,8 +6512,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
-			(at 39.37 63.5 0)
+		(property "Value" "+9V"
+			(at 105.41 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 68.58 0)
+			(at 105.41 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 68.58 0)
+			(at 105.41 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,8 +6538,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 39.37 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 105.41 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,12 +6548,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d578e669-9f8d-47e7-9e98-0f4abc9b78fd")
+			(uuid "d16359a7-0d46-4c2b-92c6-ae3a83166814")
 		)
 		(instances
 			(project ""
 				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
-					(reference "#PWR076")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6277,6 +6664,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 72.39 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c52ab989-8377-4a34-9d66-b67b4a79d42e")
+		(property "Reference" "JP1"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Bridged12"
+			(at 72.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65fc3e90-f2d5-40be-ae41-8e8e4bddc76a")
+		)
+		(pin "3"
+			(uuid "3d7462c0-6b1e-4eec-abaa-384f6c82ca39")
+		)
+		(pin "2"
+			(uuid "30ea75a4-9d29-4ad9-a1c7-1747acd7ed60")
+		)
+		(instances
+			(project ""
+				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 99.06 0)
 		(unit 1)
@@ -6337,6 +6796,72 @@
 			(project "one-voice-synth"
 				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 217.17 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6694e58-85bb-433b-9287-0ff1c876c4ed")
+		(property "Reference" "#PWR069"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 217.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c77e8d1a-65ac-4ea0-87c3-43c3bdd40889")
+		)
+		(instances
+			(project ""
+				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6601,7 +7126,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "2k"
 			(at 74.93 93.9799 0)
 			(effects
 				(font
@@ -7037,72 +7562,6 @@
 			(project "one-voice-synth"
 				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 105.41 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0cd0a4c-577b-42cd-9606-6c8f7b15532d")
-		(property "Reference" "#PWR077"
-			(at 105.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 105.41 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 105.41 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aeb3acb0-7314-4542-a023-0c38a6198c4d")
-		)
-		(instances
-			(project "one-voice-synth"
-				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/fdeb454b-a769-4f49-910b-d3efff33fef4"
-					(reference "#PWR077")
 					(unit 1)
 				)
 			)

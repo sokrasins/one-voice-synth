@@ -1210,7 +1210,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+2V5"
+		(symbol "power:+9V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1231,7 +1231,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+2V5"
+			(property "Value" "+9V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1257,7 +1257,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(property "Description" "Power symbol creates a global label with name \"+9V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1275,7 +1275,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+2V5_0_1"
+			(symbol "+9V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1313,7 +1313,7 @@
 					)
 				)
 			)
-			(symbol "+2V5_1_1"
+			(symbol "+9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1335,7 +1335,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-2V5"
+		(symbol "power:-9V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1356,7 +1356,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "-2V5"
+			(property "Value" "-9V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1382,7 +1382,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"-2V5\""
+			(property "Description" "Power symbol creates a global label with name \"-9V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1400,7 +1400,33 @@
 					(hide yes)
 				)
 			)
-			(symbol "-2V5_0_0"
+			(symbol "-9V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1417,20 +1443,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "-2V5_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -3236,72 +3248,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 248.92 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "367c97c9-412b-42d1-8a35-c62c5160524b")
-		(property "Reference" "#PWR017"
-			(at 248.92 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 248.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 248.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df391e93-8b9b-4975-952f-9ef90e6055af")
-		)
-		(instances
-			(project ""
-				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/76fa81f6-dd43-4ad7-9821-88a95eed3bea"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 85.09 45.72 0)
 		(unit 1)
@@ -3724,72 +3670,6 @@
 			(project "one-voice-synth"
 				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/76fa81f6-dd43-4ad7-9821-88a95eed3bea"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-2V5")
-		(at 264.16 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79d8a18d-754a-4e77-baf9-d7a0b0a376a7")
-		(property "Reference" "#PWR019"
-			(at 264.16 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-2V5"
-			(at 264.16 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-2V5\""
-			(at 264.16 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95b253e3-0b3a-4064-8afe-13767a867d42")
-		)
-		(instances
-			(project ""
-				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/76fa81f6-dd43-4ad7-9821-88a95eed3bea"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4310,6 +4190,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 248.92 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a10cf4e2-4679-49e5-a559-c37d4352a6fe")
+		(property "Reference" "#PWR042"
+			(at 248.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 248.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "882fed18-66c6-4377-83ec-cb2d79f06ef6")
+		)
+		(instances
+			(project ""
+				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/76fa81f6-dd43-4ad7-9821-88a95eed3bea"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 226.06 45.72 90)
 		(unit 1)
@@ -4669,6 +4615,72 @@
 			(project ""
 				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/76fa81f6-dd43-4ad7-9821-88a95eed3bea"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-9V")
+		(at 264.16 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8ffdd9c-2060-4fbe-8e51-9e4ad23f4fd2")
+		(property "Reference" "#PWR043"
+			(at 264.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-9V"
+			(at 264.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-9V\""
+			(at 264.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df6fa061-e458-4169-a5c0-7535f6b003b2")
+		)
+		(instances
+			(project ""
+				(path "/37001b8c-4a9b-42a8-aa4a-87d2c21e2f25/76fa81f6-dd43-4ad7-9821-88a95eed3bea"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
